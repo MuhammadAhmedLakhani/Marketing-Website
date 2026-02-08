@@ -16,6 +16,7 @@
     --heading-color: #4D4D4D;
     --natural-color: #F5F7FA;
     --sub-heading-color:#717171;
+    --para-color:#18191F;
 }
 
 
@@ -53,6 +54,7 @@ p {
     font-style: Regular;
     font-size: 11.14px;
     line-height: 16.71px;
+    color: var(--para-color);
 }
 
 
@@ -103,7 +105,6 @@ a {
 /* header section css starts here  */
 
 header {
-    height: 58.7px;
     background-color: var(--white);
 }
 
@@ -130,11 +131,7 @@ header {
 .banner-image>img {
     width: 60%;
 }
-
-
-
 /* banner section ends here  */
-
 
 /* client section starts here */
 
@@ -143,3 +140,18 @@ header {
 }
 
 /* client section ends here */
+
+/* reinvent section starts here */
+
+#reinvent-section {
+    height: 30vh;
+    background-color: var(--natural-color);
+}
+
+.reinvent-details :nth-child(2){
+    color: var(---bg-primary);
+}
+
+
+
+/* reinvent section ends here */
