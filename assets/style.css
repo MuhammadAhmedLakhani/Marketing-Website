@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+/* global styles css starts  here */
+
+:root {
+    ---bg-primary: #4CAF4F;
+    --white:#FFFFFF;
+    --btn-padding: 9.74px 22.27px;
+    --rounded-corner:2.78px;
+    --btn-font:11.14px;
+    --brand-color:#263238;
+}
+
+
+h1 {
+    font-size: 44.5px;
+}
+
+
+
+
+
+button {
+    border: 0;
+}
+
+a {
+    font-size: 11.14px !important;
+    line-height: 16.7px;
+    color: #4D4D4D;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./fonts/Inter_18pt-Regular.ttf);
+}
+
+/* custom components css startasb here */
+
+
+.btn-register {
+    background-color: var(---bg-primary);
+    padding: var(--btn-padding);
+    color: var(--white);
+    border-radius: var(--rounded-corner);
+    font-size: var(--btn-font);
+}
+
+
+
+/* custom css componenet css ends here */
+
+
+
+/* header section css starts here  */
+
+header {
+    height: 58.7px;
+    background-color: var(--white);
+}
+
+/* header section css ends here  */
