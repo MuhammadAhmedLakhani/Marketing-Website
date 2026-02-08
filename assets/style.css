@@ -15,6 +15,7 @@
     --btn-font: 11.14px;
     --heading-color: #4D4D4D;
     --natural-color: #F5F7FA;
+    --sub-heading-color:#717171;
 }
 
 
@@ -26,6 +27,26 @@ h1 {
     color: var(--heading-color);
 }
 
+h2 {
+    font-weight: 600;
+    font-size: 25.06px;
+    line-height: 30.63px;
+    color: var(--heading-color);
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 19.49px;
+    line-height: 25.06px;
+    color: var(--heading-color);
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 9.74px;
+    line-height: 13.92px;
+    color: var(--sub-heading-color);
+}
 
 p {
     font-weight: 400;
@@ -105,7 +126,7 @@ header {
     color: var(---bg-primary);
 }
 
-.banner-image > img {
+.banner-image>img {
     width: 60%;
 }
 
