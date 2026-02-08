@@ -45,7 +45,7 @@ h4 {
     font-weight: 400;
     font-size: 9.74px;
     line-height: 13.92px;
-    color: var(--sub-heading-color);
+    color: var(--sub-heading-color  );
 }
 
 p {
@@ -81,6 +81,7 @@ a {
 
 .my-container {
     padding-top: 27.84px;
+    padding-bottom: 27.84px;
 }
 
 
@@ -133,3 +134,12 @@ header {
 
 
 /* banner section ends here  */
+
+
+/* client section starts here */
+
+.spending-image > img  {
+    width: 90%;
+}
+
+/* client section ends here */
