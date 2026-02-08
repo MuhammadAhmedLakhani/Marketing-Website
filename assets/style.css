@@ -9,24 +9,36 @@
 
 :root {
     ---bg-primary: #4CAF4F;
-    --white:#FFFFFF;
+    --white: #FFFFFF;
     --btn-padding: 9.74px 22.27px;
-    --rounded-corner:2.78px;
-    --btn-font:11.14px;
-    --brand-color:#263238;
+    --rounded-corner: 2.78px;
+    --btn-font: 11.14px;
+    --heading-color: #4D4D4D;
+    --natural-color: #F5F7FA;
 }
 
 
 h1 {
     font-size: 44.5px;
+    Font-Weight: 600;
+    font-Style: Semi Bold;
+    line-height: 52.9px;
+    color: var(--heading-color);
 }
 
 
-
+p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.14px;
+    line-height: 16.71px;
+}
 
 
 button {
     border: 0;
+    font-weight: 500;
+    text-align: center;
 }
 
 a {
@@ -34,6 +46,9 @@ a {
     line-height: 16.7px;
     color: #4D4D4D;
 }
+
+/* fonts used  */
+
 
 @font-face {
     font-family: inter;
@@ -43,12 +58,18 @@ a {
 /* custom components css startasb here */
 
 
+.my-container {
+    padding-top: 27.84px;
+}
+
+
 .btn-register {
     background-color: var(---bg-primary);
     padding: var(--btn-padding);
     color: var(--white);
     border-radius: var(--rounded-corner);
     font-size: var(--btn-font);
+    text-align: center;
 }
 
 
@@ -65,3 +86,29 @@ header {
 }
 
 /* header section css ends here  */
+
+
+
+/* banner section starts here  */
+
+#banner-section {
+    min-height: 400px;
+    background-color: var(--natural-color);
+}
+
+.banner-heading {
+    padding-top: 72.39px;
+    margin-bottom: 11.14px;
+}
+
+.banner-heading :nth-child(2) {
+    color: var(---bg-primary);
+}
+
+.banner-image > img {
+    width: 60%;
+}
+
+
+
+/* banner section ends here  */
