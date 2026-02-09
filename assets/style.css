@@ -17,6 +17,9 @@
     --natural-color: #F5F7FA;
     --sub-heading-color: #18191F;
     --para-color: #717171;
+    --grey-color: #F5F7FA;
+    --neutral-black-color: #263238;
+    --input-gray: #D9DBE1;
 }
 
 
@@ -61,6 +64,7 @@ p {
     font-size: 11.14px;
     line-height: 16.71px;
     color: var(--para-color);
+    /* max-width: 430px; */
 }
 
 
@@ -92,6 +96,13 @@ a {
     padding-bottom: 27.84px;
 }
 
+.my-footer {
+    padding-top: 87.01px;
+}
+
+.my-padding-bottom {
+    padding-bottom: 80px;
+}
 
 .btn-register {
     background-color: var(---bg-primary);
@@ -151,7 +162,6 @@ header {
 /* reinvent section starts here */
 
 #reinvent-section {
-    height: 30vh;
     background-color: var(--natural-color);
 }
 
@@ -160,6 +170,14 @@ header {
 }
 
 /* reinvent section ends here */
+
+/* caring section starts here */
+
+#caring-section {
+    min-height:450px ;
+}
+
+/* caring section ends here */
 
 
 /* how-section starts here */
@@ -184,3 +202,83 @@ header {
 }
 
 /* tesla-secton ends here */
+
+/* care section starts here */
+.card-body {
+    max-width: 80%;
+    background-color: #F5F7FA;
+    top: 70%;
+    left: 10%;
+}
+
+.cardtext {
+    color: #717171;
+}
+
+/* care section ends here */
+
+/* demo section starts here */
+#demo-section {
+    background-color: var(--natural-color);
+}
+
+.demo-details h1 {
+    color: var(--neutral-black-color);
+}
+
+/* demo section ends here */
+
+/* footer section starts here */
+#footer-section {
+    background-color: var(--neutral-black-color);
+}
+
+
+.footer-details h4 {
+    color: var(--grey-color);
+}
+
+.footer-company h5 {
+    color: var(--white);
+}
+
+.footer-nav a {
+    font-weight: 400;
+    font-size: 9.74px;
+    line-height: 13.92px;
+    color: var(--grey-color);
+}
+
+.footer-support h5 {
+    color: var(--white);
+}
+
+.footer-update h5 {
+    color: var(--white);
+}
+
+.email-signup {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.email-signup input {
+    background-color:#515b60;
+    padding-right: 40px;
+}
+
+input::placeholder {
+    color: #D9DBE1 !important;
+}
+
+.email-signup button {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* footer section ends here */
