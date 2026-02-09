@@ -64,7 +64,7 @@ p {
     font-size: 11.14px;
     line-height: 16.71px;
     color: var(--para-color);
-    /* max-width: 430px; */
+    /*  max-width: 430px; */
 }
 
 
@@ -174,7 +174,7 @@ header {
 /* caring section starts here */
 
 #caring-section {
-    min-height:450px ;
+    min-height: 450px;
 }
 
 /* caring section ends here */
@@ -265,7 +265,7 @@ header {
 
 
 .email-signup input {
-    background-color:#515b60;
+    background-color: #515b60;
     padding-right: 40px;
 }
 
@@ -282,3 +282,44 @@ input::placeholder {
 }
 
 /* footer section ends here */
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Responsiveness  starts here */
+
+
+@media screen and (min-width:320px) and (max-width:578px) {
+    h1 {
+        font-size: 34.5px;
+    }
+
+    h2 {
+        font-size: 20.06px;
+    }
+
+    h3 {
+        font-size: 19.49px;
+    }
+
+    h4 {
+        font-size: 14.74px;
+    }
+
+
+
+    .card-body {
+        top: 65%;
+    }
+
+}
+
+
+/* Mobile Responsiveness  ends here */
