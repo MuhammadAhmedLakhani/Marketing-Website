@@ -15,8 +15,8 @@
     --btn-font: 11.14px;
     --heading-color: #4D4D4D;
     --natural-color: #F5F7FA;
-    --sub-heading-color:#717171;
-    --para-color:#18191F;
+    --sub-heading-color: #18191F;
+    --para-color: #717171;
 }
 
 
@@ -46,12 +46,18 @@ h4 {
     font-weight: 400;
     font-size: 9.74px;
     line-height: 13.92px;
-    color: var(--sub-heading-color  );
+    color: var(--para-color);
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 13.92px;
+    line-height: 19.49px;
+    color: var(---bg-primary);
 }
 
 p {
     font-weight: 400;
-    font-style: Regular;
     font-size: 11.14px;
     line-height: 16.71px;
     color: var(--para-color);
@@ -131,12 +137,13 @@ header {
 .banner-image>img {
     width: 60%;
 }
+
 /* banner section ends here  */
 
 /* client section starts here */
 
-.spending-image > img  {
-    width: 90%;
+.spending-image>img {
+    width: 80%;
 }
 
 /* client section ends here */
@@ -148,10 +155,32 @@ header {
     background-color: var(--natural-color);
 }
 
-.reinvent-details :nth-child(2){
+.reinvent-details :nth-child(2) {
     color: var(---bg-primary);
 }
 
-
-
 /* reinvent section ends here */
+
+
+/* how-section starts here */
+
+.how-image>img {
+    width: 70%;
+}
+
+/* how-section ends here */
+
+/* tesla-secton starts here */
+#tesla-section {
+    background-color: var(--natural-color);
+}
+
+.tesla-image {
+    width: 100%;
+}
+
+.tesla-image img {
+    width: 70%;
+}
+
+/* tesla-secton ends here */
