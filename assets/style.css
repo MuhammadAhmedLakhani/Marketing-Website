@@ -64,7 +64,6 @@ p {
     font-size: 11.14px;
     line-height: 16.71px;
     color: var(--para-color);
-    /*  max-width: 430px; */
 }
 
 
@@ -96,9 +95,10 @@ a {
     padding-bottom: 27.84px;
 }
 
+/* 
 .my-footer {
     padding-top: 87.01px;
-}
+} */
 
 .my-padding-bottom {
     padding-bottom: 80px;
@@ -132,7 +132,7 @@ header {
 /* banner section starts here  */
 
 #banner-section {
-    min-height: 500px;
+    min-height: 450px;
     background-color: var(--natural-color);
 }
 
@@ -297,8 +297,17 @@ input::placeholder {
 
 
 @media screen and (min-width:320px) and (max-width:578px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        line-height: 1.2;
+    }
+
     h1 {
-        font-size: 34.5px;
+        font-size: 30.5px;
     }
 
     h2 {
@@ -314,12 +323,73 @@ input::placeholder {
     }
 
 
+    .banner-heading {
+        padding-top: 0px;
+    }
+
+    .banner-image>img {
+        width: 75%;
+    }
+
 
     .card-body {
         top: 65%;
+    }
+
+    #caring-section .row {
+        gap: 60px
+    }
+
+    .customers {
+        width: 100%;
+        text-align: center;
     }
 
 }
 
 
 /* Mobile Responsiveness  ends here */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        line-height: 1.2;
+    }
+
+    .banner-image>img {
+        width: 80%;
+    }
+
+    .customers {
+        width: 100%;
+        text-align: center;
+    }
+
+     h1 {
+        font-size: 34.5px;
+    }
+
+    h2 {
+        font-size: 20.06px;
+    }
+
+}
+
+/* Tablet Responsiveness starts here */
+
+/* laptop Responsivenes starts here */
+
+@media (min-width:992px) {
+    .my-footer {
+        padding-top: 87.01px;
+    }
+}
+
+
+
+
+/* laptop Responsivenes ends here */
