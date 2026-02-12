@@ -15,7 +15,7 @@
 
 
     <!-- Custom CSS link -->
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
 
 </head>
 
@@ -51,7 +51,7 @@
     <!-- banner section starts here -->
 
     <section id="banner-section">
-        <div class="container my-container">
+        <div class="container">
             <div class="row align-items-center mb-4">
                 <div class="col-md-6 order-2 order-md-1 text-center text-md-start">
                     <div class="banner-heading">
@@ -62,7 +62,7 @@
                     <buttton class="btn-register">Register</buttton>
                 </div>
                 <div class="col-md-6  order-1 order-md-2">
-                    <div class="banner-image text-center">
+                    <div class="banner-image text-center text-lg-end">
                         <img src="./assets/images/Illustration.png">
                     </div>
                 </div>
@@ -76,9 +76,9 @@
     <!-- banner section ends here -->
 
     <!-- Clients section starts here -->
-    <section id="clients">
-        <div class="container my-container">
-            <div class="client-details text-center mb-5">
+    <section id="clients" class="my-padding">
+        <div class="container">
+            <div class="client-details text-center">
                 <h2>Our Clients</h2>
                 <p>We have been working with some Fortune 500+ clients</p>
             </div>
@@ -105,52 +105,85 @@
                     <img src="./assets/images/c-7.png" alt="" width="" height="">
                 </div>
             </div>
+    </section>
+
+    <!-- Manage section starts here -->
+
+    <section id="manage-section" class="my-padding">
+        <div class="container">
             <div class="system-details text-center  my-container ">
                 <h2>Manage your entire community <br> in a single system</h2>
                 <p>Who is Nextcent suitable for?</p>
             </div>
             <div class="row  gx-5">
                 <div class="col-12 col-md-4">
-                    <div class="member-icon text-center">
-                        <img src="./assets/images/member.png">
-                    </div>
-                    <div class="membership-details text-center">
-                        <h3>Membership Organisations</h3>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="member-icon text-center">
-                        <img src="./assets/images/nationsal.png">
-                    </div>
-                    <div class="membership-details text-center">
-                        <h3>National Associations</h3>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments
-                        </p>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="member-icon text-center">
+                                <img src="./assets/images/member.png">
+                            </div>
+                            <div class="membership-details text-center">
+                                <h3>Membership Organisations</h3>
+                                <p>Our membership management software provides full automation of membership renewals
+                                    and
+                                    payments
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="group-icon text-center">
-                        <img src="./assets/images/groups.png">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="member-icon text-center">
+                                <img src="./assets/images/nationsal.png">
+                            </div>
+                            <div class="membership-details text-center">
+                                <h3>National Associations</h3>
+                                <p>Our membership management software provides full automation of membership renewals
+                                    and
+                                    payments
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="membership-details text-center">
-                        <h3>Clubs And Groups</h3>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments
-                        </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="group-icon text-center">
+                                <img src="./assets/images/groups.png">
+                            </div>
+                            <div class="membership-details text-center">
+                                <h3>Clubs And Groups</h3>
+                                <p>Our membership management software provides full automation of membership renewals
+                                    and
+                                    payments
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+        </div>
+    </section>
+
+    <!-- Manage section ends here -->
+
+
+
+
+    <!-- Unseen Section starts here-->
+    <section id="unseen-section" class="my-padding">
+        <div class="container">
             <div class="row pt-4 gx-5 align-items-center">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5 pb-4 pb-md-0">
                     <div class="spending-image text-center">
                         <img src="./assets/images/spending-image.png">
                     </div>
                 </div>
-                <div class="col-12 col-md-5 text-center text-md-start">
+                <div class="col-12 col-md-7 text-center text-md-start">
                     <h2 class="text-center text-md-start">The unseen of spending three years at Pixelgrade</h2>
                     <h4 class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum.
                         Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta.
@@ -160,12 +193,13 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <!-- Clients section ends here -->
+    <!-- Unseen Section starts here-->
 
     <!-- Reinvent section starts here -->
-    <section id="reinvent-section">
-        <div class="container my-container">
+    <section id="reinvent-section" class="my-padding">
+        <div class="container">
             <div class="row">
                 <div class=" col-12 col-md-5">
                     <div class="reinvent-details text-center text-md-start">
@@ -210,15 +244,15 @@
 
     <!-- How section starts here -->
 
-    <section id="how-section">
-        <div class="container my-container">
+    <section id="how-section" class="my-padding">
+        <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5 pb-4 pb-md-0">
                     <div class="how-image text-center text-md-start">
                         <img src="./assets/images/how-image.png">
                     </div>
                 </div>
-                <div class="col col-md-5 text-center text-md-start ">
+                <div class="col col-md-7 text-center text-md-start ">
                     <h2>How to design your site footer like we did</h2>
                     <h4 class="mb-4">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec
                         tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at
@@ -234,15 +268,16 @@
     <!-- How section ends here -->
 
     <!-- tesla-section starts here -->
-    <section id="tesla-section">
-        <div class="container my-container">
+
+    <section id="tesla-section" class="my-padding">
+        <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-4 pb-4 pb-md-0">
                     <div class="tesla-image text-center text-md-start">
                         <img src="./assets/images/tesla-image.png">
                     </div>
                 </div>
-                <div class="col-12 col-md-7 text-center text-md-start">
+                <div class="col-12 col-md-8 text-center text-md-start">
                     <h4 class="mb-3 fw-semi-bold">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
                         sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare,
                         tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit
@@ -273,7 +308,7 @@
                             <img src="./assets/images/c6.png" alt="" width="" height="">
                         </div>
                         <div class="customers">
-                            <h5 class="d-inline-block" >Meet all customers</h5>
+                            <h5 class="d-inline-block">Meet all customers</h5>
                             <span>
                                 <img class="text-success" src="./assets/images/right-g.png" alt="" width="" height="">
                             </span>
@@ -287,7 +322,7 @@
 
     <!-- caring-section starts here -->
 
-    <section id="caring-section">
+    <section id="caring-section" class="my-padding">
         <div class="container my-container my-padding-bottom">
             <div class="row  justify-content-center ">
                 <div class="col-md-7">
@@ -301,7 +336,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4 pt-md-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card position-relative">
                         <img src="./assets/images/card-1.png" class="card-img-top">
@@ -353,20 +388,20 @@
 
     <!-- caring-section ends here -->
     <!-- Demo section starts here -->
-    <section id="demo-section">
-        <div class="container my-container">
+    <section id="demo-section" class="my-padding">
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-5 text-center">
+                <div class="col-md-7 text-center">
                     <h1>Pellentesque suscipit fringilla libero eu.</h1>
                     <button class="btn-register">Get a Demo <span><img src="./assets/images/right.png"></span></button>
-                    
+
                 </div>
             </div>
 
         </div>
     </section>
     <!-- Demo section ends here -->
-    <footer id="footer-section">
+    <footer id="footer-section" class="my-padding">
         <div class="container my-container my-footer">
             <div class="row gap-4 gap-md-0">
                 <div class="col-12 col-md-4">
