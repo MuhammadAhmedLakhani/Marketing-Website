@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: inter;
 }
 
 /* global styles css starts  here */
+
+body {
+    font-family: inter !important;
+}
 
 :root {
     ---bg-primary: #4CAF4F;
@@ -26,9 +29,9 @@
 h1 {
     font-size: 44.5px;
     Font-Weight: 600;
-    font-Style: Semi Bold;
     line-height: 52.9px;
     color: var(--heading-color);
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -36,6 +39,7 @@ h2 {
     font-size: 25.06px;
     line-height: 30.63px;
     color: var(--heading-color);
+    margin-bottom: 6px;
 }
 
 h3 {
@@ -43,6 +47,7 @@ h3 {
     font-size: 19.49px;
     line-height: 25.06px;
     color: var(--heading-color);
+    margin-bottom: 6px;
 }
 
 h4 {
@@ -50,6 +55,7 @@ h4 {
     font-size: 9.74px;
     line-height: 13.92px;
     color: var(--para-color);
+    margin-bottom: 0px;
 }
 
 h5 {
@@ -64,6 +70,7 @@ p {
     font-size: 11.14px;
     line-height: 16.71px;
     color: var(--para-color);
+    margin-bottom: 11px;
 }
 
 
@@ -85,16 +92,16 @@ a {
 
 @font-face {
     font-family: inter;
-    src: url(./fonts/Inter_18pt-Regular.ttf);
+    src: url(../fonts/Inter_28pt-Regular.ttf);
 }
 
 /* custom components css startasb here */
 
 
-.my-padding{
-    padding-top: 27.84px;
-    padding-bottom: 27.84px;
+.my-padding-b {
+    padding-bottom: 11px;
 }
+
 
 /* 
 .my-footer {
@@ -133,36 +140,103 @@ header {
 /* banner section starts here  */
 
 #banner-section {
+    padding-top: 66px;
+    padding-bottom: 66px;
     background-color: var(--natural-color);
 }
 
 .banner-heading {
     padding-top: 72.39px;
-    margin-bottom: 11.14px;
+    margin-bottom: 11px;
 }
 
 .banner-heading :nth-child(2) {
     color: var(---bg-primary);
 }
 
-.banner-image>img {
-    width: 60%;
+#banner-section p {
+    margin-bottom: 22px;
 }
+
 
 /* banner section ends here  */
 
 /* client section starts here */
 
-.spending-image>img {
-    width: 100%;
+#client-section {
+    padding-top: 27px;
+    padding-bottom: 27px;
 }
 
+
+
 /* client section ends here */
+
+/* Manage section starts here */
+
+
+
+
+/* Manage section ends here */
+
+#manage-section {
+    padding-bottom: 28px;
+}
+
+
+#manage-section .card {
+    padding: 17px 22px 16px 22px;
+    border: 0;
+    box-shadow: 0 1.39px 2.78px 0px #ABBED133;
+}
+
+#manage-section .card-body {
+    padding: 0;
+}
+
+#manage-section .card p {
+    margin-bottom: 0;
+}
+
+/* unseen section starts here */
+
+#unseen-section {
+    padding-bottom: 33px;
+}
+
+#unseen-section h4 {
+    padding-bottom: 22px;
+}
+
+.unseen-row {
+    gap: 34px;
+}
+
+/* unseen section ends here */
 
 /* reinvent section starts here */
 
 #reinvent-section {
     background-color: var(--natural-color);
+    padding: 45px 0px;
+}
+
+.reinvent-row {
+    justify-content: center;
+    gap: 50px;
+}
+
+.reinvent-numbers-row {
+    gap: 21px;
+    justify-content: center;
+}
+
+.reinvent-numbers-row p {
+    margin-bottom: 28px;
+}
+
+.reinvent-numbers-row h3 {
+    margin-bottom: 0px;
 }
 
 .reinvent-details :nth-child(2) {
@@ -182,28 +256,44 @@ header {
 
 /* how-section starts here */
 
-.how-image>img {
-    width: 100%;
+#how-section {
+    padding: 33px 0px;
+}
+
+
+
+#how-section h4 {
+    padding-bottom: 22px;
+}
+
+.how-row {
+    gap: 34px;
 }
 
 /* how-section ends here */
 
 /* tesla-secton starts here */
 #tesla-section {
+    padding: 22px 0px;
     background-color: var(--natural-color);
 }
 
-.tesla-image {
-    width: 100%;
+.tesla-row {
+    justify-content: center;
+    gap: 54px;
 }
 
-.tesla-image img {
-    width: 100%;
-}
+
 
 /* tesla-secton ends here */
 
 /* care section starts here */
+
+#caring-section {
+    padding-top: 33px;
+    padding-bottom: 118px;
+}
+
 #caring-section .card-body {
     max-width: 80%;
     background-color: #F5F7FA;
@@ -219,23 +309,36 @@ header {
 
 /* demo section starts here */
 #demo-section {
+    padding-top: 22px;
+    padding-bottom: 35px;
     background-color: var(--natural-color);
 }
 
-.demo-details h1 {
+#demo-section h1 {
     color: var(--neutral-black-color);
+    padding-bottom: 22px;
 }
 
 /* demo section ends here */
 
 /* footer section starts here */
+
+
+
+
 #footer-section {
     background-color: var(--neutral-black-color);
+    padding-top: 45px;
+    padding-bottom: 53px;
 }
 
 
 .footer-details h4 {
     color: var(--grey-color);
+}
+
+.footer-details :nth-child(3) {
+    margin-bottom: 28px;
 }
 
 .footer-company h5 {
@@ -247,6 +350,8 @@ header {
     font-size: 9.74px;
     line-height: 13.92px;
     color: var(--grey-color);
+    display: block;
+    margin-bottom: 8px;
 }
 
 .footer-support h5 {
@@ -273,6 +378,10 @@ input::placeholder {
     color: #D9DBE1 !important;
 }
 
+.email-signup input {
+    border: none;
+}
+
 .email-signup button {
     position: absolute;
     top: 15%;
@@ -280,6 +389,11 @@ input::placeholder {
     cursor: pointer;
     background-color: transparent;
 }
+
+.email-btn img {
+    width: 80%;
+}
+
 
 /* footer section ends here */
 
@@ -345,6 +459,10 @@ input::placeholder {
         text-align: center;
     }
 
+    .tesla-row{
+        gap: 34px;
+    }
+
 
     #footer-section h5 {
         font-size: 18px;
@@ -373,7 +491,7 @@ input::placeholder {
         text-align: center;
     }
 
-     h1 {
+    h1 {
         font-size: 34.5px;
     }
 
@@ -385,15 +503,17 @@ input::placeholder {
 
 /* Tablet Responsiveness starts here */
 
-/* laptop Responsivenes starts here */
 
-@media (min-width:992px) {
-    .my-footer {
-        padding-top: 87.01px;
+
+/* Laptop Responsiveness start here */
+
+@media(min-width:992px) {
+    .cards-row {
+        justify-content: center;
+        gap: 88px;
     }
+
 }
 
 
-
-
-/* laptop Responsivenes ends here */
+/* Laptop Responsiveness ends here */
